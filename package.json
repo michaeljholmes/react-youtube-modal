@@ -1,6 +1,6 @@
 {
   "name": "react-youtube-modal",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple modal which opens with a youtube video. Modal closes on video finish.",
   "main": "lib/index.js",
   "scripts": {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import YouTubePlayer from 'youtube-player';
 
-export default class YoutubeModal extends Component {
+export default class YoutubeVideo extends Component {
 
     componentDidMount () {
         const {endCallback, videoId, height, width} = this.props;

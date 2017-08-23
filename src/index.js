@@ -28,7 +28,7 @@ export default class YoutubeModal extends Component {
     }
 }
 
-Modal.defaultProps = {
+YoutubeModal.defaultProps = {
     closeOnFinish: true,
     height: "640px",
     width: "390px"

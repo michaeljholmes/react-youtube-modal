@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styles from './youtubeModal.scss';
 import YoutubeVideo from './YoutubeVideo';
 
-export default class Modal extends Component {
+export default class YoutubeModal extends Component {
 
     state={modal: false};
 

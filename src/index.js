@@ -28,6 +28,10 @@ export default class YoutubeModal extends Component {
     }
 }
 
+YoutubeModal.propTypes = {
+    videoId: PropTypes.string.isRequired
+};
+
 YoutubeModal.defaultProps = {
     closeOnFinish: true,
     height: "640px",

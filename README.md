@@ -1,15 +1,27 @@
-A simple modal which opens with a youtube video.
+## react-youtube-modal
+A simple modal which opens with a youtube video. Modal closes when user clicks outside modal or if video finishes(default behaviour).
 
-Install
+
+##Install
 
 ```javascript 1.8
-npm instal- react-youtube-modal --save
+npm install- react-youtube-modal --save
 ```
-Basic Usage
+##Basic Usage
 
 ```javascript 1.8
   
- <Modal videoId="B6-WRTmjFAA" >
+ <YoutubeModal videoId="B6-WRTmjFAA" >
     <button type="button">Open Modal!</button>
- <Modal/>
+ <YoutubeModal/>
  ```
+ 
+## Props
+ 
+ Required: 
++ videoId - ID of youtube video displayed in modal
+
+ Not Required: 
+ + closeOnFinish :  Default - true
+ + height : Default - 640px 
+ + width : Default - 390px 

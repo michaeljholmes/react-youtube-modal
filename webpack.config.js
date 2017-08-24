@@ -5,7 +5,10 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: './lib',
-    filename: "index.js"
+    filename: "index.js",
+      library: 'react-youtube-modal',
+      libraryTarget: 'umd',
+      umdNamedDefine: true
   },
   module: {
     loaders: [

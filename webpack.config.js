@@ -2,7 +2,11 @@ var webpack = require('webpack');
 
 module.exports = {
   context: __dirname,
-  entry: './src/index.js',
+  entry: ['babel-polyfill', './src/index.js'],
+  externals: {
+    'react': 'react',
+    'prop-types': 'prop-types'
+  },
   output: {
     path: './lib',
     filename: "index.js",

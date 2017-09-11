@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styles from './youtubeModal.scss';
 import YoutubeVideo from './YoutubeVideo';
+import PropTypes from 'prop-types';
 
 export default class YoutubeModal extends Component {
 

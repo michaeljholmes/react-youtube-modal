@@ -13,7 +13,7 @@ npm install- react-youtube-modal --save
   
  <YoutubeModal videoId="B6-WRTmjFAA" >
     <button type="button">Open Modal!</button>
- <YoutubeModal/>
+ </YoutubeModal>
  ```
  
 ## Props
